@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import Toggle from './components/Toggle';
+// import Modal from './components/Modal';
+import Drag from './components/Drag';
 import './App.css';
 
 function App() {
@@ -6,18 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Toggle btnText="Click me" modalText="Hi I'm in an animated modal" />
+      <Drag />
     </div>
   );
 }
