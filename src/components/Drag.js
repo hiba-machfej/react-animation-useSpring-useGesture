@@ -27,7 +27,7 @@ const Drag = () => {
       style={{
         background: x.interpolate({
           range: [-300, 300],
-          output: ['#00CCFF', '#33CCCC'],
+          output: ['#fff393', '#61dbfb'],
           extrapolate: 'clamp',
         }),
       }}
